@@ -2,8 +2,8 @@ name: 360-t7
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 21 * * *
+#  schedule:
+#    - cron: 0 21 * * *
 
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-23.05.git
