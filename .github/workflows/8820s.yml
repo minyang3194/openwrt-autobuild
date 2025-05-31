@@ -2,8 +2,8 @@ name: 8820s-hwnat
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 20 * * *
+#  schedule:
+#    - cron: 0 20 * * *
 
 env:
   REPO_URL: https://github.com/jessehoo89/immortalwrt.git
